@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="monopoly.visuale.ControllerFine">
+   <center>
+      <AnchorPane prefHeight="370.0" prefWidth="547.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="570.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/pikachuDancing.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="530.0" layoutY="380.0" prefHeight="13.0" prefWidth="37.0" text="LinkSwitch19">
+               <font>
+                  <Font size="6.0" />
+               </font>
+            </Label>
+            <Label fx:id="vincitoreNome" alignment="CENTER" layoutX="16.0" layoutY="2.0" prefHeight="101.0" prefWidth="553.0" text="Vincitore Giocatore : " textFill="#7d3c98" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
