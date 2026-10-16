@@ -49,28 +49,28 @@
 ## 🏗️ Architettura
 
 ```
-                ┌───────────────────┐
+                ┌─────────────────────┐
                 │       Main          │  Avvio partita testuale
                 └─────────┬───────────┘
                           │
                 ┌─────────▼───────────┐
-                │        Gioco          │  Game loop, gestione turni e giocatori
+                │        Gioco        │  Game loop, gestione turni e giocatori
                 └─────────┬───────────┘
        ┌──────────────────┼──────────────────────┐
        ▼                  ▼                       ▼
  ┌───────────┐    ┌───────────────┐      ┌─────────────────┐
- │ Tabellone   │    │   Giocatore    │      │      Banca        │
- │  + Caselle   │    │  (movimento,    │      │ (fondi, pagamenti)  │
- │  + Carte      │    │   pagamenti)     │      └─────────────────┘
+ │ Tabellone │    │   Giocatore   │      │      Banca      │
+ │  + Caselle│    │  (movimento,  │      │(fondi,pagamenti)│
+ │  + Carte  │    │   pagamenti)  │      └─────────────────┘
  └───────────┘    └───────────────┘
 
-                ┌───────────────────┐
-                │    MainVisuale       │  Avvio modulo grafico (JavaFX)
+                ┌─────────────────────┐
+                │    MainVisuale      │  Avvio modulo grafico (JavaFX)
                 └─────────┬───────────┘
                           │
                 ┌─────────▼───────────┐
-                │    GiocoVisuale        │  Dadi animati, schermata iniziale/finale
-                └───────────────────┘
+                │    GiocoVisuale     │  Dadi animati, schermata iniziale/finale
+                └─────────────────────┘
 ```
 
 ---
